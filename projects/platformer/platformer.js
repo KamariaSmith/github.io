@@ -63,7 +63,7 @@ $(function () {
     // example usage: createCollectable(type, x, y, gravity, bounce)
 
     createCollectable('database',570,300,1,0)
-    createCollectable('database',1380,70,1,0)
+    createCollectable('database',1360,150,1,0)
     createCollectable('database',255,400,0,0)
     createCollectable('database',200,600,0,0)
     
@@ -74,10 +74,10 @@ $(function () {
     // Your wall choices are: 'top' 'left' 'right' and 'bottom'
     // example usage: createCannon(side, position, delay, width, height)
 
-     createCannon('right',550,1000,10,10)
-     createCannon('left',200,1000,40,10)
-     createCannon('right',240,500,10,10)
-
+     createCannon('right',550,1300,10,10)
+     createCannon('right',399,1100,10,10)
+     createCannon('left',120,899,10,10)
+     createCannon('right',800,500,5100,10)
 
      
      
